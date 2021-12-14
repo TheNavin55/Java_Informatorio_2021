@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/votos")
+@RequestMapping(value = "/usuarios/votos")
 public class VotoController {
     private final VotoService votoService;
     @Autowired

@@ -73,7 +73,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"nombre\": \"Carlos\",\r\n    \"apellido\": \"Amada\",\r\n    \"email\": \"xd1234@gmail.com\",\r\n    \"password\": \"12345\",\r\n    \"ciudad\": \"Resistencia\",\r\n    \"provincia\": \"Chaco\",\r\n    \"pais\": \"Argentina\",\r\n    \"tipo\": 2\r\n}",
+							"raw": "{\r\n    \"nombre\": \"Ivan\",\r\n    \"apellido\": \"Gonzalez\",\r\n    \"email\": \"mrivancho7@gmail.com\",\r\n    \"password\": \"12345\",\r\n    \"ciudad\": \"Barranqueras\",\r\n    \"provincia\": \"Chaco\",\r\n    \"pais\": \"Argentina\",\r\n    \"tipo\": 2\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -81,7 +81,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/usuarios/3",
+							"raw": "http://localhost:8080/usuarios/4",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -89,7 +89,7 @@
 							"port": "8080",
 							"path": [
 								"usuarios",
-								"3"
+								"4"
 							]
 						}
 					},
@@ -120,7 +120,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/usuarios?ciudad=Saenz Peña",
+							"raw": "http://localhost:8080/usuarios?ciudad=Resistencia",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -132,7 +132,7 @@
 							"query": [
 								{
 									"key": "ciudad",
-									"value": "Saenz Peña"
+									"value": "Resistencia"
 								}
 							]
 						}
@@ -145,7 +145,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/usuarios?fecha=2021-12-14T00:24:55.936294",
+							"raw": "http://localhost:8080/usuarios?fecha=2021-12-14T17:18:12.872697",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -157,7 +157,7 @@
 							"query": [
 								{
 									"key": "fecha",
-									"value": "2021-12-14T00:24:55.936294"
+									"value": "2021-12-14T17:18:12.872697"
 								}
 							]
 						}
@@ -235,7 +235,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/emprendimientos/1",
+							"raw": "http://localhost:8080/emprendimientos/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -243,7 +243,7 @@
 							"port": "8080",
 							"path": [
 								"emprendimientos",
-								"1"
+								"2"
 							]
 						}
 					},
@@ -393,7 +393,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/eventos/2/ranking",
+							"raw": "http://localhost:8080/eventos/1/ranking",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -401,7 +401,7 @@
 							"port": "8080",
 							"path": [
 								"eventos",
-								"2",
+								"1",
 								"ranking"
 							]
 						}
