@@ -1,5 +1,5 @@
 package com.informatorio.proyectoFinal.entity;
 
-public enum GeneratedFrom {
+public enum Generado {
     MOBILE,WEB,SERVICE;
 }

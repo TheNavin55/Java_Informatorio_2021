@@ -1,5 +1,5 @@
 package com.informatorio.proyectoFinal.entity;
 
-public enum UserType {
+public enum Tipo {
     USER, COLLABORATOR, OWNER
 }

@@ -1,5 +1,5 @@
 package com.informatorio.proyectoFinal.entity;
 
-public enum Status {
+public enum Estado {
     OPEN, IN_COURSE, FINALIZED;
 }
